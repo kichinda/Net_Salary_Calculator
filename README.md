@@ -1,7 +1,19 @@
-# Student grade generator
+```Javascript
+Title
+```
 
-**Usage**
-From the graphical display on web browser insert your marks and find your average,grade and total from the button below.
-The grade starts from A then B and ends to F.
+Net-Salary-Calculator
 
-Author:Jesse Kichinda.
+# About the program and how to use it
+
+This program will calculated your monthly income after taxes and expensenses.
+
+          ** SETUP**
+
+
+
+After launching the program, it will instruct you to enter your salary;amount NHIF deduct; Amount NSSF deduct; Then it will calculate your net salary.
+
+**AUTHOR**
+
+Jesse Kichinda
