@@ -1,10 +1,14 @@
-var basic_salary=prompt("Enter your salary");
-        var NHIF=prompt("Enter your NHIF Tax");
-        var NSSF=prompt("Enter your NSSF Tax");
-        var Net=prompt("Net_Salary");
-        var Gross_salary=parseInt(basic_salary) + parseInt(NHIF) + parseInt(NSSF) + parseInt(Net);
-        var Tax=Gross_salary *0.4;
-        var Net_Salary=Gross_salary - Tax;
-        document.write('Gross_salary is\t' +Gross_salary);
-        document.write('Your net_salary is: ' + Net_Salary);
-        document.write('Tax deduction\t + NSSF\t = ' + Tax);
+var basic_salary=prompt("Enter your basic salary");
+var NHIF=prompt("Enter the NHIF deducted");
+var NSSF=prompt("Enter the NSSF deducted");
+var Gross_salary=parseInt(basic_salary) + parseInt(NHIF) + parseInt(NSSF);
+//percentage of tax deducted from your salary
+var Tax=Gross_salary *0.8;
+var net_income=Gross_salary - Tax;
+
+//Display the results after input has been entered
+document.write("<br>Your Gross_salary is\t "+net_income);
+document.write("<br>Your Net income is "+net_income);
+document.write("<br>Your Tax deducted from gross salary is "+tax);
+
+        
