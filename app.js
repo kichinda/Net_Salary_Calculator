@@ -3,7 +3,7 @@ var NHIF=prompt("Enter the NHIF deducted");
 var NSSF=prompt("Enter the NSSF deducted");
 var Gross_salary=parseInt(basic_salary) + parseInt(NHIF) + parseInt(NSSF);
 //percentage of tax deducted from your salary
-var Tax=Gross_salary *0.8;
+var Tax=Gross_salary *0.3;
 var net_income=Gross_salary - Tax;
 
 //Display the results after input has been entered
